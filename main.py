@@ -12,6 +12,5 @@ for turtle_index in range(0, 3):
     new_turtle.color("white")
     new_turtle.penup()
     new_turtle.goto(x_positions[turtle_index], y=0)
-    print(new_turtle.position())
 
 screen.exitonclick()
